@@ -1,0 +1,21 @@
+<paragraphe> ::= <phrases>
+<phrases> ::= [ <phrases> ] <phrase>
+<phrase> ::= <phrase_affirmative>
+<phrase_affirmative> ::= <phrase_complexe> .
+<phrase_complexe> ::= <phrase_simple> [ <conjunction> <phrase_complexe> ]
+<phrase_simple> ::= <groupe_nominal> <groupe_verbal>
+<groupe_nominal> ::= <nom_propre> | 
+                 ( <determiner> [ <adjective> ] <nom> [ qui <groupe_verbal> ] )
+<groupe_verbal> ::= <verbe_intransitif> | ( <verbe_transitif> <groupe_nominal> )
+<conjunction> ::= mais | ou | et | donc | or | ni | car
+<nom_propre> ::= Nicolas | Clément | Tom | Mary |
+                    Socrate | Anaïs | Aristote |
+		( Nicolas de Marqué )
+<determiner> ::= le | un | certain | ( tous les ) 
+<nom> ::= chien | chat | homme | femme | unicorn | poisson | oiseau | magicien
+<verbe_intransitif> ::= court | marche | saute | rit | crit | dort |
+#                             ( sait que <phrase_simple> ) |
+#                             ( croit que <phrase_simple> ) |
+#                             ( voit que <phrase_simple> )
+<verbe_transitif> ::= aime | hait | sait | voit | est | trouve | ( cherche à )
+<adjective> ::= gros | petit | drole | triste | stupide | heureux

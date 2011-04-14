@@ -1,0 +1,103 @@
+body{background:grey}
+
+table{font-size:10px; font-family:sans-serif; border-collapse:collapse}
+
+table{border-spacing:0px;}
+
+td, th{padding:0px; margin:0px; border:0px}
+
+td, th{text-align:center;vertical-align:top;}
+
+div.icon
+{width:19px;height:19px}
+td.middle>div.icon
+{width:5px;height:19px}
+
+.right.link.first.last.set.level1.notfirst.last.notitle.and {width:100%;}
+div.graph>table.rule>tbody>tr>td>table.set>tbody>tr>td[width=50%]{width:0px;}
+/*div.graph>table.rule>tbody>tr>td>table.set>tbody>tr>td.placecols{width:0px;}*/
+
+.placeCols{background:url("horizontal.png") repeat-x 0 0px;}
+.left.link.first.last.set.level1.notitle.and  div,
+.left.link.first.last.set.levelmore.notitle.and div{display:none}
+div.final{background:url("horizontal.png") repeat-x 0 0px;}
+div.final span{display:inline-block; border-radius:5px; padding:0px 5px; border: 2px solid black; background:white;}
+div.final.word span{border-radius:10px;}
+div.final.rule span{background:#C0DCE1}
+
+/* Regles Generiques */
+/*.content{background:url("horizontal.png") repeat-x 0 0px}*/
+.left.link.and div.icon, .right.link.and div.icon, 
+.middle.link{background:url("horizontal.png") repeat-x 0 0px}
+
+.or.left.first.withtitle>div.icon,
+.or.left.notfirst.notlast>div.icon{background:url("notfirst.more.notlast.left.png")}
+.or.right.first.withtitle>div.icon,
+.or.right.notfirst.notlast>div.icon{background:url("notfirst.more.notlast.right.png")}
+
+.option.and.last.left>div.icon,
+.repetition.and.last.left>div.icon,
+.or.left.link.notfirst.last>div.icon{background:url("last.left.png")}
+.option.and.last.right>div.icon,
+.repetition.and.last.right>div.icon,
+.or.right.link.notfirst.last>div.icon{background:url("last.right.png")}
+
+.first.left.notitle>div.icon,
+.title.left.withtitle>div.icon
+{background:url("first.more.left.png")}
+.first.right.notitle>div.icon,
+.title.right.withtitle>div.icon
+{background:url("first.more.right.png")}
+
+.link.first.last.repetition.and.suffixed,
+td.or.notlast.left, td.or.notlast.right{background:url("vertical.png") no-repeat 0 19px;}
+
+/* Option */
+.title.content.option{background:url("horizontal.png")}
+
+td.or.notfirst.notlast.left>div.icon,
+td.option.notlast.left>div.icon,
+td.option.first.notitle.left>div.icon
+{background:url("notfirst.more.notlast.left.png");}
+
+td.or.notfirst.notlast.right>div.icon,
+td.option.notlast.right>div.icon,
+td.option.first.notitle.right>div.icon
+{background:url("notfirst.more.notlast.right.png");}
+
+
+/* Set */
+.set.first.right{background:url("horizontal.png") repeat-x}
+tr.set.title{display:none;}
+.set.right.and>div.icon{width:0px}
+.set.left.and>div.icon{width:0px}
+
+/* Rule */
+.title.content.rule.level1{font-size:16px; font-weight:bold; line-height:30px; padding-top:30px;}
+.rule.right.link.level1>div.icon{background:url("rule.level1.right.png" ) no-repeat 0 0px}
+.rule.left.link.level1>div.icon{background:url("rule.level1.left.png") no-repeat 0 0px}
+.rule.title.link.level1 *{background:none;}
+tr.rule.title.levelmore{display:none;}
+.rule.first.last.notitle.levelmore>div.icon{display:none;}
+/*Level 1 avec option directe */
+.left.link.rule.level1.notlast.notitle.first.or>div.icon
+{background: url("first.more.left.png") no-repeat }
+.right.link.rule.level1.notlast.notitle.first.or>div.icon
+{background: url("first.more.right.png") no-repeat}
+
+/* Repetition */
+.repetition.title.content{background:url("repetition.title.middle.png")}
+.repetition.title.left div.icon{background:url("repetition.title.left.png")}
+.repetition.title.right div.icon{background:url("repetition.title.right.png")}
+
+.repetition.forced.title.content{background:url("horizontal.png")}
+.repetition.forced.title.left div.icon{background:url("repetition.forced.png")}
+.repetition.forced.title.right div.icon{background:url("repetition.forced.png")}
+
+.repetition.suffixed.title.content{background:url("horizontal.png")}
+.repetition.suffixed.title.left div.icon{background:url("first.more.left.png")}
+.repetition.suffixed.title.right div.icon{background:url("first.more.right.png")}
+.repetition.suffixed.left.link.first.last div.icon{background:url("repetition.left.suffixed.png")}
+.repetition.suffixed.right.link.first.last div.icon{background:url("repetition.right.suffixed.png")}
+
+
